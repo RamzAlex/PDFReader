@@ -25,6 +25,7 @@ public class Splash extends JFrame{
         this.setVisible(true);
         // matar al gif de carga
         matarSplash();
+        this.setAlwaysOnTop(true);
     } 
 
     private void configInicial() {
